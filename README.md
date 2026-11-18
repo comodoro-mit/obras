@@ -53,17 +53,6 @@ El visor sólo necesita una URL que devuelva el mismo GeoJSON. Opciones:
 1. **Exportación programada**: una tarea en el servidor municipal genera `obras.geojson` (con la lógica del script) y lo sube/commitea → Cloudflare Pages republica solo.
 2. **Endpoint en vivo**: un endpoint (PHP/Node/etc.) que consulta la base y devuelve GeoJSON. Se cambia `FUENTE_DATOS` en `public/js/visor.js` por esa URL (habilitar CORS si está en otro dominio).
 
-## Publicar en GitHub + Cloudflare Pages
-
-```bash
-git init
-git add .
-git commit -m "Visor de obras públicas: primera versión"
-git branch -M main
-git remote add origin https://github.com/<usuario>/obraspublicas.git
-git push -u origin main
-```
-
 En Cloudflare → *Workers & Pages* → *Create* → *Pages* → *Connect to Git*, elegir el repositorio y configurar:
 
 | Opción | Valor |
