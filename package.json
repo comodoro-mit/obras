@@ -1,0 +1,14 @@
+{
+  "name": "visor-obras-publicas",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Visor web de obras públicas georreferenciadas — Comodoro Rivadavia",
+  "type": "module",
+  "scripts": {
+    "datos": "node scripts/csv-a-geojson.mjs sistema_proyectos_obras_publicas_test.csv public/data/obras.geojson",
+    "dev": "node scripts/servidor.mjs 8080"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

@@ -1,0 +1,64 @@
+# ------------------------------------------------------------
+# Datos crudos exportados del sistema municipal (no se publican).
+# El sitio sólo necesita public/data/obras.geojson, que se genera
+# localmente con `npm run datos` y sí se versiona.
+# ------------------------------------------------------------
+*.csv
+*.tsv
+*.xls
+*.xlsx
+*.ods
+*.sql
+*.sql.gz
+*.dump
+*.db
+*.sqlite
+*.sqlite3
+*.mdb
+*.accdb
+*.gpkg
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.qgs
+*.qgz
+*.qgs~
+*.qgz~
+*.zip
+*.7z
+*.rar
+
+# Material de referencia de otros proyectos (no forma parte del sitio)
+ejemplo/
+
+# Credenciales y configuración local (conexión futura a la base de datos)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+config.local.*
+
+# Herramientas y editores
+.claude/
+.vscode/
+.idea/
+*.code-workspace
+
+# Node / Cloudflare
+node_modules/
+.wrangler/
+.dev.vars
+npm-debug.log*
+
+# Sistema operativo y temporales
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+*.tmp
+*.bak
+*~

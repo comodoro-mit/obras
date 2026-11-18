@@ -1,0 +1,1348 @@
+{
+ "type": "FeatureCollection",
+ "metadata": {
+  "generado": "2026-11-18T14:48:10.674Z",
+  "fuente": "sistema_proyectos_obras_publicas_test.csv",
+  "total": 61
+ },
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -67.547404,
+     -45.824971
+    ]
+   },
+   "properties": {
+    "id": 191,
+    "nombre": "Red Cloacal 27 Lotes B° Laprida Mzas 88 y 89.",
+    "nombreOriginal": "RED CLOACAL 27 LOTES B° LAPRIDA MZAS 88 Y 89.",
+    "categoria": "cloacas",
+    "subcategoria": "Obra de Infraestructura",
+    "subSector": null,
+    "barrio": "Laprida",
+    "beneficiarios": 27,
+    "beneficiariosTexto": null,
+    "plazoDias": 180,
+    "plazoTexto": "6 meses",
+    "presupuesto": "2024-07"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -67.489499,
+     -45.837344
+    ]
+   },
+   "properties": {
+    "id": 193,
+    "nombre": "Restauracion de Cauce y Construccion de Canales en Club Sta. Lucia-B° Gral Mosconi",
+    "nombreOriginal": "RESTAURACION DE CAUCE Y CONSTRUCCION DE CANALES EN CLUB STA. LUCIA-B° GRAL MOSCONI",
+    "categoria": "drenaje",
+    "subcategoria": "Obra de Infraestructura",
+    "subSector": "Club Santa Lucia",
+    "barrio": "Gral Mosconi",
+    "beneficiarios": null,
+    "beneficiariosTexto": null,
+    "plazoDias": 180,
+    "plazoTexto": "180 días",
+    "presupuesto": "2026-04"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -67.633795,
+     -45.873729
+    ]
+   },
+   "properties": {
+    "id": 194,
+    "nombre": "Sistema de Drenaje Camino Don Santiago- B° Chacras",
+    "nombreOriginal": "SISTEMA DE DRENAJE CAMINO DON SANTIAGO- B° CHACRAS",
+    "categoria": "drenaje",
+    "subcategoria": "Obra de Infraestructura",
+    "subSector": "Camino Don Santiago",
+    "barrio": "Chacras",
+    "beneficiarios": null,
+    "beneficiariosTexto": null,
+    "plazoDias": 120,
+    "plazoTexto": "120 días",
+    "presupuesto": "2025-10"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -67.532123,
+     -45.879235
+    ]
+   },
+   "properties": {
+    "id": 195,
+    "nombre": "Reacondicionamiento Plaza B° Pueyrredón",
+    "nombreOriginal": "REACONDICIONAMIENTO PLAZA B° PUEYRREDÓN",
+    "categoria": "espacio-publico",
+    "subcategoria": null,
+    "subSector": null,
+    "barrio": "Pueyrredón",
+    "beneficiarios": null,
+    "beneficiariosTexto": null,
+    "plazoDias": 180,
+    "plazoTexto": "180 días",
+    "presupuesto": "2026-03"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -67.500567,
+     -45.821854
+    ]
+   },
+   "properties": {
+    "id": 196,
+    "nombre": "Ampliación Red Colectora Cloacal Mzas. 52 y 144. B° Sarmiento",
+    "nombreOriginal": "AMPLIACIÓN RED COLECTORA CLOACAL MZAS. 52 Y 144. B° SARMIENTO",
+    "categoria": "cloacas",
+    "subcategoria": "Obra de Infraestructura",
+    "subSector": null,
+    "barrio": "Sarmiento",
+    "beneficiarios": 72,
+    "beneficiariosTexto": null,
+    "plazoDias": 180,
+    "plazoTexto": "180 días",
+    "presupuesto": "2024-07"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -67.561411,
+     -45.860283
+    ]
+   },
+   "properties": {
+    "id": 197,
+    "nombre": "Ampliacion Red Colectora Cloacal B° Cordon Forestal Segun Proyecto SCPL N° 2147 - Etapa 7",
+    "nombreOriginal": "AMPLIACION RED COLECTORA CLOACAL B° CORDON FORESTAL SEGUN PROYECTO SCPL N° 2147 - ETAPA 7",
+    "categoria": "cloacas",
+    "subcategoria": "Obra de Infraestructura",
+    "subSector": null,
+    "barrio": "Cordon Forestal",
+    "beneficiarios": 272,
+    "beneficiariosTexto": null,
+    "plazoDias": 180,
+    "plazoTexto": "180 días",
+    "presupuesto": "2024-08"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -67.471779,
+     -45.805934
+    ]
+   },
+   "properties": {
+    "id": 198,
+    "nombre": "Ampliacion Red Colectora Cloacal Mzas. 139, 140 y 224 a 227 - B° R. Peña",
+    "nombreOriginal": "AMPLIACION RED COLECTORA CLOACAL MZAS. 139, 140 Y 224 A 227 - B° R. PEÑA",
+    "categoria": "cloacas",
+    "subcategoria": "Obra de Infraestructura",
+    "subSector": null,
+    "barrio": "R. Peña",
+    "beneficiarios": 204,
+    "beneficiariosTexto": null,
+    "plazoDias": 120,
+    "plazoTexto": "120 días",
+    "presupuesto": "2024-07"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -67.452675,
+     -45.809244
+    ]
+   },
+   "properties": {
+    "id": 199,
+    "nombre": "Ampliacion Red Colectora Cloacal Mzas. 67 a 69 - B° Pte. Ortiz",
+    "nombreOriginal": "AMPLIACION RED COLECTORA CLOACAL MZAS. 67 A 69 - B° PTE. ORTIZ",
+    "categoria": "cloacas",
+    "subcategoria": "Obra de Infraestructura",
+    "subSector": null,
+    "barrio": "Pte. Ortiz",
+    "beneficiarios": 196,
+    "beneficiariosTexto": null,
+    "plazoDias": 180,
+    "plazoTexto": "180 días",
+    "presupuesto": "2024-07"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -67.525931,
+     -45.823158
+    ]
+   },
+   "properties": {
+    "id": 200,
+    "nombre": "Ampliación Red Recolectora de Efluentes Cloacales Mza 31 - B° Manantial Rosales",
+    "nombreOriginal": "AMPLIACIÓN RED RECOLECTORA DE EFLUENTES CLOACALES MZA 31 - B° MANANTIAL ROSALES",
+    "categoria": "cloacas",
+    "subcategoria": "Obra de Infraestructura",
+    "subSector": null,
+    "barrio": "Manantial Rosales",
+    "beneficiarios": 12,
+    "beneficiariosTexto": null,
+    "plazoDias": 120,
+    "plazoTexto": "120 días",
+    "presupuesto": "2024-08"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -67.485085,
+     -45.834192
+    ]
+   },
+   "properties": {
+    "id": 201,
+    "nombre": "Estación de Bombeo – Mza. 239 – B° General Enrique Mosconi",
+    "nombreOriginal": "ESTACIÓN DE BOMBEO – MZA. 239 – B° GENERAL ENRIQUE MOSCONI",
+    "categoria": "cloacas",
+    "subcategoria": "Obra de Infraestructura",
+    "subSector": null,
+    "barrio": "General Enrique Mosconi",
+    "beneficiarios": 40,
+    "beneficiariosTexto": null,
+    "plazoDias": 120,
+    "plazoTexto": "120 días",
+    "presupuesto": "2024-08"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -67.542044,
+     -45.883463
+    ]
+   },
+   "properties": {
+    "id": 202,
+    "nombre": "Optimizacion del Sistema de Desagues Pluviales en Interseccion de Av. Kennedy, Chile y Congreso Etapa I",
+    "nombreOriginal": "OPTIMIZACION DEL SISTEMA DE DESAGUES PLUVIALES EN INTERSECCION DE AV. KENNEDY, CHILE Y CONGRESO ETAPA I",
+    "categoria": "drenaje",
+    "subcategoria": "Obra de Infraestructura",
+    "subSector": null,
+    "barrio": null,
+    "beneficiarios": 10280,
+    "beneficiariosTexto": null,
+    "plazoDias": 90,
+    "plazoTexto": "90 días",
+    "presupuesto": "2025-04"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -67.486116,
+     -45.86201
+    ]
+   },
+   "properties": {
+    "id": 203,
+    "nombre": "Señalización Horizontal con Pintura Termoplástica en Calle Rivadavia",
+    "nombreOriginal": "SEÑALIZACIÓN HORIZONTAL CON PINTURA TERMOPLÁSTICA EN CALLE RIVADAVIA",
+    "categoria": "vialidad",
+    "subcategoria": null,
+    "subSector": null,
+    "barrio": null,
+    "beneficiarios": null,
+    "beneficiariosTexto": null,
+    "plazoDias": 60,
+    "plazoTexto": "60 días",
+    "presupuesto": "2026-01"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -67.541264,
+     -45.825923
+    ]
+   },
+   "properties": {
+    "id": 205,
+    "nombre": "Ampliacion Red Colectora Cloacal Mza. 98 B° Laprida",
+    "nombreOriginal": "AMPLIACION RED COLECTORA CLOACAL MZA. 98 B° LAPRIDA",
+    "categoria": "cloacas",
+    "subcategoria": "Obra de Infraestructura",
+    "subSector": null,
+    "barrio": "Laprida",
+    "beneficiarios": 112,
+    "beneficiariosTexto": null,
+    "plazoDias": 120,
+    "plazoTexto": "120 días",
+    "presupuesto": "2024-07"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -67.438056,
+     -45.803724
+    ]
+   },
+   "properties": {
+    "id": 215,
+    "nombre": "Nexo Descarga Cloacal B° Don Bosco Segun Proy. SCPL N° 2103",
+    "nombreOriginal": "NEXO DESCARGA CLOACAL B° DON BOSCO SEGUN PROY. SCPL N° 2103",
+    "categoria": "cloacas",
+    "subcategoria": "Obra de Infraestructura",
+    "subSector": null,
+    "barrio": "Don Bosco",
+    "beneficiarios": 1004,
+    "beneficiariosTexto": null,
+    "plazoDias": 180,
+    "plazoTexto": "180 días",
+    "presupuesto": "2024-08"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -67.555786,
+     -45.886071
+    ]
+   },
+   "properties": {
+    "id": 216,
+    "nombre": "Sistema Desague Pluvial B° Cordon Forestal Etapa 1: Construccion de Alcantarillas sobre Calle Felix Quintana en Interseccion con Calle Codigo 748 y Calle Concejal Avila",
+    "nombreOriginal": "SISTEMA DESAGUE PLUVIAL B° CORDON FORESTAL ETAPA 1: CONSTRUCCION DE ALCANTARILLAS SOBRE CALLE FELIX QUINTANA EN INTERSECCION CON CALLE CODIGO 748 Y CALLE CONCEJAL AVILA",
+    "categoria": "drenaje",
+    "subcategoria": "Obra de Infraestructura",
+    "subSector": null,
+    "barrio": "Cordon Forestal",
+    "beneficiarios": 7465,
+    "beneficiariosTexto": null,
+    "plazoDias": 180,
+    "plazoTexto": "180 días",
+    "presupuesto": "2024-02"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -67.504073,
+     -45.792746
+    ]
+   },
+   "properties": {
+    "id": 217,
+    "nombre": "Ampliacion Red Colectora Cloacal Mzas. 15, 300 y 301 B° Gasoducto y Mza. 267 B° Acceso Norte",
+    "nombreOriginal": "AMPLIACION RED COLECTORA CLOACAL MZAS. 15, 300 Y 301 B° GASODUCTO Y MZA. 267 B° ACCESO NORTE",
+    "categoria": "cloacas",
+    "subcategoria": "Obra de Infraestructura",
+    "subSector": null,
+    "barrio": "Gasoducto",
+    "beneficiarios": 164,
+    "beneficiariosTexto": null,
+    "plazoDias": 180,
+    "plazoTexto": "180 días",
+    "presupuesto": "2024-07"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -67.475306,
+     -45.806881
+    ]
+   },
+   "properties": {
+    "id": 218,
+    "nombre": "Ampliacion Red Colectora Cloacal B° R.Peña Proy SCPL N° 2177",
+    "nombreOriginal": "AMPLIACION RED COLECTORA CLOACAL B° R.PEÑA PROY SCPL N° 2177",
+    "categoria": "cloacas",
+    "subcategoria": "Obra de Infraestructura",
+    "subSector": null,
+    "barrio": "R.Peña",
+    "beneficiarios": 140,
+    "beneficiariosTexto": null,
+    "plazoDias": 120,
+    "plazoTexto": "120 días",
+    "presupuesto": "2024-07"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -67.441555,
+     -45.78867
+    ]
+   },
+   "properties": {
+    "id": 219,
+    "nombre": "Ampliacion Red Colectora Cloacal Mzas. 92 a 96 - B° Standard Norte",
+    "nombreOriginal": "AMPLIACION RED COLECTORA CLOACAL MZAS. 92 A 96 - B° STANDARD NORTE",
+    "categoria": "cloacas",
+    "subcategoria": "Obra de Infraestructura",
+    "subSector": null,
+    "barrio": "Standard Norte",
+    "beneficiarios": null,
+    "beneficiariosTexto": null,
+    "plazoDias": 180,
+    "plazoTexto": "180 días",
+    "presupuesto": "2024-07"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -67.523845,
+     -45.821122
+    ]
+   },
+   "properties": {
+    "id": 220,
+    "nombre": "Ampliacion Red de Provision de Agua - B° Manantial Rosales Mza 31, Proy SCPL N° 2184, Mzas 58 y 59, Proy SCPL N° 2242, Mzas 75 y 76, Proy SCPL N° 2118",
+    "nombreOriginal": "AMPLIACION RED DE PROVISION DE AGUA - B° MANANTIAL ROSALES MZA 31, PROY SCPL N° 2184, MZAS 58 Y 59, PROY SCPL N° 2242, MZAS 75 Y 76, PROY SCPL N° 2118",
+    "categoria": "agua",
+    "subcategoria": "Obra de Infraestructura",
+    "subSector": null,
+    "barrio": "Manantial Rosales",
+    "beneficiarios": 160,
+    "beneficiariosTexto": null,
+    "plazoDias": 180,
+    "plazoTexto": "180 días",
+    "presupuesto": "2024-07"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -67.528169,
+     -45.882642
+    ]
+   },
+   "properties": {
+    "id": 221,
+    "nombre": "Sellado Vial de Juntas y Grietas en Av. Chile y Av. Roca",
+    "nombreOriginal": "SELLADO VIAL DE JUNTAS Y GRIETAS EN AV. CHILE Y AV. ROCA",
+    "categoria": "vialidad",
+    "subcategoria": null,
+    "subSector": null,
+    "barrio": null,
+    "beneficiarios": null,
+    "beneficiariosTexto": null,
+    "plazoDias": 45,
+    "plazoTexto": "45 días corridos",
+    "presupuesto": "2026-01"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -67.527357,
+     -45.864257
+    ]
+   },
+   "properties": {
+    "id": 222,
+    "nombre": "Sellado Vial de Juntas y Grietas Av. 10 de Noviembre y Av. Estados Unidos",
+    "nombreOriginal": "SELLADO VIAL DE JUNTAS Y GRIETAS AV. 10 DE NOVIEMBRE Y AV. ESTADOS UNIDOS",
+    "categoria": "vialidad",
+    "subcategoria": null,
+    "subSector": null,
+    "barrio": null,
+    "beneficiarios": null,
+    "beneficiariosTexto": null,
+    "plazoDias": 45,
+    "plazoTexto": "45 días corridos",
+    "presupuesto": "2025-12"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -67.484245,
+     -45.868078
+    ]
+   },
+   "properties": {
+    "id": 223,
+    "nombre": "Construcción Estacionamiento Municipal en Mz 33 Parcela 13 B° Centro",
+    "nombreOriginal": "CONSTRUCCIÓN ESTACIONAMIENTO MUNICIPAL EN MZ 33 PARCELA 13 B° CENTRO",
+    "categoria": "edificios",
+    "subcategoria": null,
+    "subSector": null,
+    "barrio": "Centro",
+    "beneficiarios": null,
+    "beneficiariosTexto": null,
+    "plazoDias": 60,
+    "plazoTexto": "60 días corridos",
+    "presupuesto": "2025-07"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -67.512999,
+     -45.870959
+    ]
+   },
+   "properties": {
+    "id": 224,
+    "nombre": "Construcción de Nicheras Cementerio Oeste",
+    "nombreOriginal": "CONSTRUCCIÓN DE NICHERAS CEMENTERIO OESTE",
+    "categoria": "edificios",
+    "subcategoria": null,
+    "subSector": null,
+    "barrio": null,
+    "beneficiarios": null,
+    "beneficiariosTexto": null,
+    "plazoDias": 60,
+    "plazoTexto": "60 días corridos",
+    "presupuesto": "2025-07"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -67.452764,
+     -45.791292
+    ]
+   },
+   "properties": {
+    "id": 225,
+    "nombre": "Construcción de Nicheras Cementerio KM9",
+    "nombreOriginal": "CONSTRUCCIÓN DE NICHERAS CEMENTERIO KM9",
+    "categoria": "edificios",
+    "subcategoria": null,
+    "subSector": null,
+    "barrio": null,
+    "beneficiarios": null,
+    "beneficiariosTexto": null,
+    "plazoDias": 60,
+    "plazoTexto": "60 días corridos",
+    "presupuesto": "2025-07"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": null,
+   "properties": {
+    "id": 226,
+    "nombre": "Muro de Contención en Lotes 14 y 15 de Mza. 151 “A” B° Jorge Newbery",
+    "nombreOriginal": "MURO DE CONTENCIÓN EN LOTES 14 Y 15 DE MZA. 151 “A” B° JORGE NEWBERY",
+    "categoria": "muros",
+    "subcategoria": null,
+    "subSector": null,
+    "barrio": "Jorge Newbery",
+    "beneficiarios": null,
+    "beneficiariosTexto": null,
+    "plazoDias": 120,
+    "plazoTexto": "120 días corridos",
+    "presupuesto": "2025-07"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": null,
+   "properties": {
+    "id": 227,
+    "nombre": "Contenciones y Veredas Pasaje Peatonal 662 B° Jorge Newbery",
+    "nombreOriginal": "CONTENCIONES Y VEREDAS PASAJE PEATONAL 662 B° JORGE NEWBERY",
+    "categoria": "muros",
+    "subcategoria": null,
+    "subSector": null,
+    "barrio": "Jorge Newbery",
+    "beneficiarios": null,
+    "beneficiariosTexto": null,
+    "plazoDias": 90,
+    "plazoTexto": "90 días corridos",
+    "presupuesto": "2025-07"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -67.48607,
+     -45.861
+    ]
+   },
+   "properties": {
+    "id": 228,
+    "nombre": "Reacondicionamiento Veredas Lado Izquierdo - Impar sobre Calle San Martin entre Calle España y Calle Belgrano y Ambas Veredas Calle San Martin entre Calle Belgrano y Calle Mitre",
+    "nombreOriginal": "REACONDICIONAMIENTO VEREDAS LADO IZQUIERDO - IMPAR SOBRE CALLE SAN MARTIN ENTRE CALLE ESPAÑA Y CALLE BELGRANO Y AMBAS VEREDAS CALLE SAN MARTIN ENTRE CALLE BELGRANO Y CALLE MITRE",
+    "categoria": "espacio-publico",
+    "subcategoria": null,
+    "subSector": null,
+    "barrio": null,
+    "beneficiarios": null,
+    "beneficiariosTexto": null,
+    "plazoDias": 120,
+    "plazoTexto": "120 días corridos",
+    "presupuesto": "2025-10"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -67.510902,
+     -45.859412
+    ]
+   },
+   "properties": {
+    "id": 229,
+    "nombre": "Muro de Contencion Calle Blas Parera Nº 2395 B° La Floresta",
+    "nombreOriginal": "MURO DE CONTENCION CALLE BLAS PARERA Nº 2395 Bº LA FLORESTA",
+    "categoria": "muros",
+    "subcategoria": null,
+    "subSector": null,
+    "barrio": "La Floresta",
+    "beneficiarios": null,
+    "beneficiariosTexto": null,
+    "plazoDias": 60,
+    "plazoTexto": "60 días",
+    "presupuesto": "2025-07"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -67.504992,
+     -45.859606
+    ]
+   },
+   "properties": {
+    "id": 230,
+    "nombre": "Muro de Contención Calle Patagonia N° 1032 - B° Jorge Newbery",
+    "nombreOriginal": "MURO DE CONTENCIÓN CALLE PATAGONIA N° 1032 - B° JORGE NEWBERY",
+    "categoria": "muros",
+    "subcategoria": null,
+    "subSector": null,
+    "barrio": "Jorge Newbery",
+    "beneficiarios": null,
+    "beneficiariosTexto": null,
+    "plazoDias": 60,
+    "plazoTexto": "60 días corridos",
+    "presupuesto": "2025-07"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": null,
+   "properties": {
+    "id": 231,
+    "nombre": "Señalizacion Horizontal y Vertical, Adecuacion de la Trama Vial - Sector Establecimientos Educativos Comodoro Rivadavia",
+    "nombreOriginal": "SEÑALIZACION HORIZONTAL Y VERTICAL, ADECUACION DE LA TRAMA VIAL - SECTOR ESTABLECIMIENTOS EDUCATIVOS COMODORO RIVADAVIA",
+    "categoria": "vialidad",
+    "subcategoria": null,
+    "subSector": null,
+    "barrio": null,
+    "beneficiarios": null,
+    "beneficiariosTexto": null,
+    "plazoDias": 120,
+    "plazoTexto": "120 días corridos",
+    "presupuesto": "2025-07"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -67.518213,
+     -45.884728
+    ]
+   },
+   "properties": {
+    "id": 232,
+    "nombre": "Sellado Vial de Juntas y Grietas Colectora Este– Avenida H. Yrigoyen entre Av. Roca y Av. Constituyentes",
+    "nombreOriginal": "SELLADO VIAL DE JUNTAS Y GRIETAS COLECTORA ESTE– AVENIDA H. YRIGOYEN ENTRE AV. ROCA Y AV. CONSTITUYENTES",
+    "categoria": "vialidad",
+    "subcategoria": null,
+    "subSector": null,
+    "barrio": null,
+    "beneficiarios": null,
+    "beneficiariosTexto": null,
+    "plazoDias": 45,
+    "plazoTexto": "45 días corridos",
+    "presupuesto": "2025-03"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -67.43677,
+     -45.791614
+    ]
+   },
+   "properties": {
+    "id": 233,
+    "nombre": "Ampliacion Red de Gas Natural Mzas. 99 y 100.- Parcelas Varias B° Gobernador Fontana",
+    "nombreOriginal": "AMPLIACION RED DE GAS NATURAL MZAS. 99 Y 100.- PARCELAS VARIAS B° GOBERNADOR FONTANA",
+    "categoria": "gas",
+    "subcategoria": null,
+    "subSector": null,
+    "barrio": "Gobernador Fontana",
+    "beneficiarios": null,
+    "beneficiariosTexto": null,
+    "plazoDias": 90,
+    "plazoTexto": "90 días",
+    "presupuesto": "2025-10"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": null,
+   "properties": {
+    "id": 234,
+    "nombre": "Extensión Red de Gas Natural Mzas. 159, 160, 161, 180 a 183 B° Don Bosco.",
+    "nombreOriginal": "EXTENSIÓN RED DE GAS NATURAL MZAS. 159, 160, 161, 180 A 183 B° DON BOSCO.",
+    "categoria": "gas",
+    "subcategoria": null,
+    "subSector": null,
+    "barrio": "Don Bosco",
+    "beneficiarios": null,
+    "beneficiariosTexto": null,
+    "plazoDias": 210,
+    "plazoTexto": "210 días",
+    "presupuesto": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": null,
+   "properties": {
+    "id": 235,
+    "nombre": "Red de Recolección de Efluentes Cloacales - B° Las Orquídeas",
+    "nombreOriginal": "RED DE RECOLECCIÓN DE EFLUENTES CLOACALES - B° LAS ORQUÍDEAS",
+    "categoria": "cloacas",
+    "subcategoria": null,
+    "subSector": null,
+    "barrio": "Las Orquídeas",
+    "beneficiarios": null,
+    "beneficiariosTexto": null,
+    "plazoDias": 180,
+    "plazoTexto": "180 días",
+    "presupuesto": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": null,
+   "properties": {
+    "id": 236,
+    "nombre": "Ampliación Red de Gas Natural Mzas. 101 y 85 B° San Cayetano.",
+    "nombreOriginal": "AMPLIACIÓN RED DE GAS NATURAL MZAS. 101 Y 85 B° SAN CAYETANO.",
+    "categoria": "gas",
+    "subcategoria": null,
+    "subSector": null,
+    "barrio": "San Cayetano",
+    "beneficiarios": null,
+    "beneficiariosTexto": null,
+    "plazoDias": 90,
+    "plazoTexto": "90 días",
+    "presupuesto": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": null,
+   "properties": {
+    "id": 237,
+    "nombre": "Extensión Red de Gas Mzas. 86, 91 y 92 B° Malvinas Argentina (Cañadon la Francesa)",
+    "nombreOriginal": "EXTENSIÓN RED DE GAS MZAS. 86, 91 Y 92 B° MALVINAS ARGENTINA (CAÑADON LA FRANCESA)",
+    "categoria": "gas",
+    "subcategoria": null,
+    "subSector": null,
+    "barrio": "Malvinas Argentina",
+    "beneficiarios": null,
+    "beneficiariosTexto": null,
+    "plazoDias": 180,
+    "plazoTexto": "180 días",
+    "presupuesto": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": null,
+   "properties": {
+    "id": 238,
+    "nombre": "Ampliación Red Colectora Cloacal Mzo. 99 a 107, 269, 298, 299 y Nexo Colector Cloacal Barrio Gesta de Malvinas.",
+    "nombreOriginal": "AMPLIACIÓN RED COLECTORA CLOACAL MZO. 99 A 107, 269, 298, 299 Y NEXO COLECTOR CLOACAL BARRIO GESTA DE MALVINAS.",
+    "categoria": "cloacas",
+    "subcategoria": null,
+    "subSector": null,
+    "barrio": null,
+    "beneficiarios": null,
+    "beneficiariosTexto": null,
+    "plazoDias": 180,
+    "plazoTexto": "180 días",
+    "presupuesto": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": null,
+   "properties": {
+    "id": 239,
+    "nombre": "Extensión Red de Gas Mzas. 16, 612 (Bis), 97 y 98 B° Bella Vista Norte, Jorge Newbery y Restinga Ali.",
+    "nombreOriginal": "EXTENSIÓN RED DE GAS MZAS. 16, 612 (BIS), 97 Y 98 Bº BELLA VISTA NORTE, JORGE NEWBERY Y RESTINGA ALI.",
+    "categoria": "gas",
+    "subcategoria": null,
+    "subSector": null,
+    "barrio": "Bella Vista Norte",
+    "beneficiarios": null,
+    "beneficiariosTexto": null,
+    "plazoDias": 60,
+    "plazoTexto": "60 días",
+    "presupuesto": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -67.574614,
+     -45.896749
+    ]
+   },
+   "properties": {
+    "id": 240,
+    "nombre": "Cámaras Sépticas Vial Zona Sur - Lavadero",
+    "nombreOriginal": "CÁMARAS SÉPTICAS VIAL ZONA SUR - LAVADERO",
+    "categoria": "cloacas",
+    "subcategoria": null,
+    "subSector": null,
+    "barrio": null,
+    "beneficiarios": null,
+    "beneficiariosTexto": null,
+    "plazoDias": 60,
+    "plazoTexto": "60 días corridos",
+    "presupuesto": "2026-02"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -67.515649,
+     -45.894687
+    ]
+   },
+   "properties": {
+    "id": 241,
+    "nombre": "Construccion Muro y Refacción Cerco Perimetral CPB B° Stella Maris",
+    "nombreOriginal": "CONSTRUCCION MURO Y REFACCIÓN CERCO PERIMETRAL CPB B° STELLA MARIS",
+    "categoria": "muros",
+    "subcategoria": null,
+    "subSector": null,
+    "barrio": "Stella Maris",
+    "beneficiarios": null,
+    "beneficiariosTexto": null,
+    "plazoDias": 60,
+    "plazoTexto": "60 días corridos",
+    "presupuesto": "2026-06"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -67.54238,
+     -45.883456
+    ]
+   },
+   "properties": {
+    "id": 242,
+    "nombre": "Intervencion en Av. Chile desde Rotonda en Av. Kennedy y Av. Congreso hasta Calle Juan Mercorelli",
+    "nombreOriginal": "INTERVENCION EN AV. CHILE DESDE ROTONDA EN AV. KENNEDY Y AV. CONGRESO HASTA CALLE JUAN MERCORELLI",
+    "categoria": "vialidad",
+    "subcategoria": null,
+    "subSector": null,
+    "barrio": null,
+    "beneficiarios": null,
+    "beneficiariosTexto": null,
+    "plazoDias": 120,
+    "plazoTexto": "120 días corridos",
+    "presupuesto": "2026-05"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -67.483042,
+     -45.861045
+    ]
+   },
+   "properties": {
+    "id": 243,
+    "nombre": "Reacondicionamiento Veredas Calle San Martín Ambos Lados entre Calle Mitre y Calle Pellegrini",
+    "nombreOriginal": "REACONDICIONAMIENTO VEREDAS CALLE SAN MARTÍN AMBOS LADOS ENTRE CALLE MITRE Y CALLE PELLEGRINI",
+    "categoria": "espacio-publico",
+    "subcategoria": null,
+    "subSector": null,
+    "barrio": null,
+    "beneficiarios": null,
+    "beneficiariosTexto": null,
+    "plazoDias": 120,
+    "plazoTexto": "120 días corridos",
+    "presupuesto": "2026-03"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -67.485854,
+     -45.86889
+    ]
+   },
+   "properties": {
+    "id": 244,
+    "nombre": "Construcción y Recambio de Baranda en Paseo Costero Av. Ducós",
+    "nombreOriginal": "CONSTRUCCIÓN Y RECAMBIO DE BARANDA EN PASEO COSTERO AV. DUCÓS",
+    "categoria": "espacio-publico",
+    "subcategoria": null,
+    "subSector": null,
+    "barrio": null,
+    "beneficiarios": null,
+    "beneficiariosTexto": null,
+    "plazoDias": 60,
+    "plazoTexto": "60 días corridos",
+    "presupuesto": "2026-08"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -67.546046,
+     -45.880765
+    ]
+   },
+   "properties": {
+    "id": 245,
+    "nombre": "Intervención Av. Lisandro de la Torre y Av. Congreso – Establecimientos Educativos",
+    "nombreOriginal": "INTERVENCIÓN AV. LISANDRO DE LA TORRE Y AV. CONGRESO – ESTABLECIMIENTOS EDUCATIVOS",
+    "categoria": "vialidad",
+    "subcategoria": null,
+    "subSector": null,
+    "barrio": null,
+    "beneficiarios": null,
+    "beneficiariosTexto": null,
+    "plazoDias": 120,
+    "plazoTexto": "120 días corridos",
+    "presupuesto": "2026-03"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -67.455997,
+     -45.808289
+    ]
+   },
+   "properties": {
+    "id": 246,
+    "nombre": "Muro de Contención en Calle Rene Matosin N°1851 B° Pte. Ortiz",
+    "nombreOriginal": "MURO DE CONTENCIÓN EN CALLE RENE MATOSIN N°1851 B° PTE. ORTIZ",
+    "categoria": "muros",
+    "subcategoria": null,
+    "subSector": null,
+    "barrio": "Pte. Ortiz",
+    "beneficiarios": null,
+    "beneficiariosTexto": null,
+    "plazoDias": 60,
+    "plazoTexto": "60 días corridos",
+    "presupuesto": "2026-04"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -67.4701,
+     -45.828182
+    ]
+   },
+   "properties": {
+    "id": 247,
+    "nombre": "Intervención en Avenida Tehuelches – B° Gral. Mosconi",
+    "nombreOriginal": "INTERVENCIÓN EN AVENIDA TEHUELCHES – B° GRAL. MOSCONI",
+    "categoria": "vialidad",
+    "subcategoria": null,
+    "subSector": null,
+    "barrio": "Gral. Mosconi",
+    "beneficiarios": null,
+    "beneficiariosTexto": null,
+    "plazoDias": 90,
+    "plazoTexto": "90 días corridos",
+    "presupuesto": "2026-03"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -67.466086,
+     -45.794657
+    ]
+   },
+   "properties": {
+    "id": 248,
+    "nombre": "Demarcacion Vial en Av. Juan Jose Paso B° Prospero Palazzo",
+    "nombreOriginal": "DEMARCACION VIAL EN AV. JUAN JOSE PASO B° PROSPERO PALAZZO",
+    "categoria": "vialidad",
+    "subcategoria": null,
+    "subSector": null,
+    "barrio": "Prospero Palazzo",
+    "beneficiarios": null,
+    "beneficiariosTexto": null,
+    "plazoDias": 30,
+    "plazoTexto": "30 días corridos",
+    "presupuesto": "2026-03"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": null,
+   "properties": {
+    "id": 249,
+    "nombre": "Ampliacion Red de Gas Natural Mzas 115 a 122 - B° Don Bosco (La Cantera)",
+    "nombreOriginal": "AMPLIACION RED DE GAS NATURAL MZAS 115 A 122 - B° DON BOSCO (LA CANTERA)",
+    "categoria": "gas",
+    "subcategoria": null,
+    "subSector": null,
+    "barrio": "Don Bosco",
+    "beneficiarios": null,
+    "beneficiariosTexto": null,
+    "plazoDias": 210,
+    "plazoTexto": "210 días",
+    "presupuesto": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": null,
+   "properties": {
+    "id": 250,
+    "nombre": "Ampliacion Red de Agua Potable - R.P. N° 39 - B° Acceso Norte - Segun Proy. SCPL N° 2551 PA 1180",
+    "nombreOriginal": "AMPLIACION RED DE AGUA POTABLE - R.P. N° 39 - B° ACCESO NORTE - SEGUN PROY. SCPL N° 2551 PA 1180",
+    "categoria": "agua",
+    "subcategoria": null,
+    "subSector": null,
+    "barrio": "Acceso Norte",
+    "beneficiarios": null,
+    "beneficiariosTexto": null,
+    "plazoDias": 90,
+    "plazoTexto": "90 días",
+    "presupuesto": "2026-01"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": null,
+   "properties": {
+    "id": 251,
+    "nombre": "Ampliacion Red de Gas Natural Mza. 267 Parcela 1, 2 y 3 B° ARA San Juan (Acceso Norte)",
+    "nombreOriginal": "AMPLIACION RED DE GAS NATURAL MZA. 267 PARCELA 1, 2 Y 3 B° ARA SAN JUAN (ACCESO NORTE)",
+    "categoria": "gas",
+    "subcategoria": null,
+    "subSector": null,
+    "barrio": "ARA San Juan",
+    "beneficiarios": 12,
+    "beneficiariosTexto": null,
+    "plazoDias": 90,
+    "plazoTexto": "90 días",
+    "presupuesto": "2026-02"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": null,
+   "properties": {
+    "id": 252,
+    "nombre": "Ampliación Red de Gas Natural Mzas. 57 y 85 P. 6 - B° San Cayetano",
+    "nombreOriginal": "AMPLIACIÓN RED DE GAS NATURAL MZAS. 57 Y 85 P. 6 - B° SAN CAYETANO",
+    "categoria": "gas",
+    "subcategoria": null,
+    "subSector": null,
+    "barrio": "San Cayetano",
+    "beneficiarios": 68,
+    "beneficiariosTexto": null,
+    "plazoDias": 90,
+    "plazoTexto": "90 días",
+    "presupuesto": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": null,
+   "properties": {
+    "id": 253,
+    "nombre": "Ampliacion Red Colectora de Efluentes Cloacales - B° Laprida Mzas. 92 y 93 Según Proyecto SCPL N°2322",
+    "nombreOriginal": "AMPLIACION RED COLECTORA DE EFLUENTES CLOACALES - B° LAPRIDA MZAS. 92 Y 93 SEGÚN PROYECTO SCPL N°2322",
+    "categoria": "cloacas",
+    "subcategoria": null,
+    "subSector": null,
+    "barrio": "Laprida",
+    "beneficiarios": 24,
+    "beneficiariosTexto": null,
+    "plazoDias": 90,
+    "plazoTexto": "90 días",
+    "presupuesto": "2026-04"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": null,
+   "properties": {
+    "id": 254,
+    "nombre": "Ampliacion Red de Provision de Agua - B° Gesta de Malvinas Mza 13 Segun Proyecto SCPL N° 2007",
+    "nombreOriginal": "AMPLIACION RED DE PROVISION DE AGUA - B° GESTA DE MALVINAS MZA 13 SEGUN PROYECTO SCPL N° 2007",
+    "categoria": "agua",
+    "subcategoria": null,
+    "subSector": null,
+    "barrio": "Gesta de Malvinas",
+    "beneficiarios": 32,
+    "beneficiariosTexto": null,
+    "plazoDias": 90,
+    "plazoTexto": "90 días",
+    "presupuesto": "2026-04"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -67.475405,
+     -45.859993
+    ]
+   },
+   "properties": {
+    "id": 255,
+    "nombre": "Intervencion con Pintura Termoplastica en Calle Sarmiento",
+    "nombreOriginal": "INTERVENCION CON PINTURA TERMOPLASTICA EN CALLE SARMIENTO",
+    "categoria": "vialidad",
+    "subcategoria": null,
+    "subSector": null,
+    "barrio": null,
+    "beneficiarios": null,
+    "beneficiariosTexto": null,
+    "plazoDias": 120,
+    "plazoTexto": "120 días corridos",
+    "presupuesto": "2026-02"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": null,
+   "properties": {
+    "id": 256,
+    "nombre": "Ampliacion de Servicios Domiciliarios de Agua Potable - Mzas. 52 y 144 B° Sarmiento",
+    "nombreOriginal": "AMPLIACION DE SERVICIOS DOMICILIARIOS DE AGUA POTABLE - MZAS. 52 Y 144 B° SARMIENTO",
+    "categoria": "agua",
+    "subcategoria": null,
+    "subSector": null,
+    "barrio": "Sarmiento",
+    "beneficiarios": null,
+    "beneficiariosTexto": null,
+    "plazoDias": null,
+    "plazoTexto": null,
+    "presupuesto": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": null,
+   "properties": {
+    "id": 257,
+    "nombre": "Ampliacion Red de Gas Natural Mza. 55. Parcela 02 B° Manantial Rosales",
+    "nombreOriginal": "AMPLIACION RED DE GAS NATURAL MZA. 55. PARCELA 02 B° MANANTIAL ROSALES",
+    "categoria": "gas",
+    "subcategoria": null,
+    "subSector": null,
+    "barrio": "Manantial Rosales",
+    "beneficiarios": 4,
+    "beneficiariosTexto": null,
+    "plazoDias": 90,
+    "plazoTexto": "90 días",
+    "presupuesto": "2026-04"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": null,
+   "properties": {
+    "id": 258,
+    "nombre": "Ampliacion Red de Gas Natural Mza. 132 - Parcelas Varias B° Los Arenales",
+    "nombreOriginal": "AMPLIACION RED DE GAS NATURAL MZA. 132 - PARCELAS VARIAS B° LOS ARENALES",
+    "categoria": "gas",
+    "subcategoria": null,
+    "subSector": null,
+    "barrio": "Los Arenales",
+    "beneficiarios": 48,
+    "beneficiariosTexto": null,
+    "plazoDias": 90,
+    "plazoTexto": "90 días",
+    "presupuesto": "2026-04"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": null,
+   "properties": {
+    "id": 259,
+    "nombre": "Ampliacion Red Colectora de Elfuentes Cloacales B° Gesta de Malvinas Mza. 13 - Segun Proyecto SCPL N° 2424",
+    "nombreOriginal": "AMPLIACION RED COLECTORA DE ELFUENTES CLOACALES B° GESTA DE MALVINAS MZA. 13 - SEGUN PROYECTO SCPL N° 2424",
+    "categoria": "cloacas",
+    "subcategoria": null,
+    "subSector": null,
+    "barrio": "Gesta de Malvinas",
+    "beneficiarios": 120,
+    "beneficiariosTexto": null,
+    "plazoDias": 90,
+    "plazoTexto": "90 días",
+    "presupuesto": "2026-04"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": null,
+   "properties": {
+    "id": 260,
+    "nombre": "Ampliación Red de Provisión de Agua - B° Laprida Mzas. 92 y 93 Segun Proyecto SCPL N° 2323",
+    "nombreOriginal": "AMPLIACIÓN RED DE PROVISIÓN DE AGUA - B° LAPRIDA MZAS. 92 Y 93 SEGUN PROYECTO SCPL N° 2323",
+    "categoria": "agua",
+    "subcategoria": null,
+    "subSector": null,
+    "barrio": "Laprida",
+    "beneficiarios": 24,
+    "beneficiariosTexto": null,
+    "plazoDias": 90,
+    "plazoTexto": "90 días",
+    "presupuesto": "2026-04"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": null,
+   "properties": {
+    "id": 261,
+    "nombre": "Ampliacion Red de Gas Natural Mza. 91 - Parcelas 1 y 2 - Mzas 92 y 93 - Parcelas Varias y Chacra 2 Parcela 5 B° Laprida",
+    "nombreOriginal": "AMPLIACION RED DE GAS NATURAL MZA. 91 - PARCELAS 1 Y 2 - MZAS 92 Y 93 - PARCELAS VARIAS Y CHACRA 2 PARCELA 5 B° LAPRIDA",
+    "categoria": "gas",
+    "subcategoria": null,
+    "subSector": null,
+    "barrio": "Laprida",
+    "beneficiarios": 36,
+    "beneficiariosTexto": null,
+    "plazoDias": 120,
+    "plazoTexto": "120 días",
+    "presupuesto": "2026-04"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -67.532778,
+     -45.876667
+    ]
+   },
+   "properties": {
+    "id": 262,
+    "nombre": "Trabajos Complementarios Obra Edificio de Recaudacion B° Pueyrredon",
+    "nombreOriginal": "TRABAJOS COMPLEMENTARIOS OBRA EDIFICIO DE RECAUDACION B° PUEYRREDON",
+    "categoria": "edificios",
+    "subcategoria": null,
+    "subSector": null,
+    "barrio": "Pueyrredon",
+    "beneficiarios": null,
+    "beneficiariosTexto": "Ciudadanos de Comodoro Rivadavia",
+    "plazoDias": 90,
+    "plazoTexto": "90 días corridos",
+    "presupuesto": "2026-06"
+   }
+  }
+ ]
+}
