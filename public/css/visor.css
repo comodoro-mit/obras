@@ -81,14 +81,9 @@ html, body { margin: 0; padding: 0; height: 100%; background: var(--panel); }
 }
 .vt-header-texto h1 { margin: 0; font-size: 18px; font-weight: 600; line-height: 1.2; }
 .vt-header-texto p  { margin: 2px 0 0; font-size: 15px; opacity: 0.9; }
+/* logotipo-combinado.png: escudo | Municipalidad · Gestión Digital · Modernización */
 .vt-header .logo { height: 55px; width: auto; flex-shrink: 0; display: block; }
-.vt-header .logo-link { flex-shrink: 0; display: inline-flex; }
-/* Grupo de logotipos: Modernización + Gestión Digital, alineados a la derecha */
-.vt-header .logos { margin-left: auto; display: flex; align-items: center; gap: 16px; flex-shrink: 0; }
-/* logotipo2.png está recortado al contenido (sin márgenes transparentes):
-   el alto en CSS es el alto visible del texto */
-.vt-header .logo-2 { height: 24px; }
-.vt-header .logos-sep { width: 1.5px; height: 36px; background: rgba(255, 255, 255, 0.55); border-radius: 1px; flex-shrink: 0; }
+.vt-header .logo-link { margin-left: auto; flex-shrink: 0; display: inline-flex; }
 .vt-btn-header {
   position: relative !important;
   width: 34px; height: 34px;
@@ -559,9 +554,6 @@ html, body { margin: 0; padding: 0; height: 100%; background: var(--panel); }
 @media (max-width: 640px) {
   .vt-header { padding: 8px 12px; gap: 8px; }
   .vt-header .logo { height: 24px; }
-  .vt-header .logo-2 { height: 14px; }
-  .vt-header .logos { gap: 8px; }
-  .vt-header .logos-sep { height: 16px; width: 1px; }
   .vt-header-texto { min-width: 0; }
   .vt-header-texto h1, .vt-header-texto p { overflow: hidden; white-space: nowrap; }
   .vt-header-texto h1 { font-size: 14px; }
