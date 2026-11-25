@@ -67,8 +67,14 @@
   L.control.scale({ imperial: false, position: 'bottomleft' }).addTo(mapa);
   mapa.attributionControl.setPrefix('<a href="https://leafletjs.com" target="_blank" rel="noopener">Leaflet</a>');
 
-  // Recalcular el tamaño del mapa cuando cambia su contenedor (pestañas ocultas, rotación, etc.)
-  if ('ResizeObserver' in window) new ResizeObserver(() => mapa.invalidateSize({ pan: false })).observe($('#mapa'));
+  // Recalcular el tamaño del mapa cuando cambia su contenedor (pestañas ocultas, rotación, etc.).
+  // Si el encuadre inicial quedó pendiente porque el mapa todavía no tenía tamaño, se hace acá.
+  let encuadreInicialPendiente = null;
+  const mapaConTamano = () => { const s = mapa.getSize(); return s.x > 80 && s.y > 80; };
+  if ('ResizeObserver' in window) new ResizeObserver(() => {
+    mapa.invalidateSize({ pan: false });
+    if (encuadreInicialPendiente && mapaConTamano()) { const f = encuadreInicialPendiente; encuadreInicialPendiente = null; f(); }
+  }).observe($('#mapa'));
 
   window.visorObras = { mapa, estado }; // útil para depurar desde la consola
 
@@ -105,11 +111,14 @@
     if (!bounds.isValid()) return;
     mapa.flyToBounds(bounds, { ...opcionesEncuadre(maxZoom), duration: 0.6 });
   }
-  function centrarEn(latlng, zoom) {
+  // animar=false salta directo (lo usa la carga inicial desde un enlace #obra-N:
+  // una animación "fly" se congela a mitad de camino si la pestaña está en segundo plano).
+  function centrarEn(latlng, zoom, animar = true) {
     zoom = Math.max(zoom ?? 16, mapa.getZoom());
     const m = margenPanel();
-    const pt = mapa.project(latlng, zoom).add([m.x / 2, m.y / 2]);
-    mapa.flyTo(mapa.unproject(pt, zoom), zoom, { duration: 0.6 });
+    const destino = mapa.unproject(mapa.project(latlng, zoom).add([m.x / 2, m.y / 2]), zoom);
+    if (animar) mapa.flyTo(destino, zoom, { duration: 0.6 });
+    else mapa.setView(destino, zoom, { animate: false });
   }
 
   // ---------------- Panel (plegar / hoja inferior) ----------------
@@ -243,7 +252,7 @@
     }
   }
 
-  function mostrarFicha(id, { volar = true } = {}) {
+  function mostrarFicha(id, { volar = true, animar = true } = {}) {
     const o = estado.obras.find(x => x.id === id);
     if (!o) { mostrarLista(); return; }
     const yaEstaba = estado.sel === id;
@@ -255,7 +264,8 @@
     plegarPanel(false);
     marcarSeleccion(id);
     // Esperar a que el panel tome su alto final antes de centrar
-    if (o.latlng && volar && !yaEstaba) requestAnimationFrame(() => centrarEn(o.latlng, 16));
+    // getBoundingClientRect (en margenPanel) ya mide el panel con la ficha recién renderizada
+    if (o.latlng && volar && !yaEstaba) centrarEn(o.latlng, 16, animar);
     document.title = `${o.nombre} | Obras públicas`;
   }
 
@@ -269,10 +279,10 @@
 
   // La URL refleja la obra abierta (#obra-191): se puede compartir y el botón "atrás" vuelve al listado.
   const idDeRuta = () => { const m = location.hash.match(/^#obra-(\d+)$/); return m ? Number(m[1]) : null; };
-  function aplicarRuta() {
+  function aplicarRuta({ animar = true } = {}) {
     const id = idDeRuta();
     if (id == null) { if (estado.sel != null) mostrarLista(); }
-    else if (id !== estado.sel) mostrarFicha(id);
+    else if (id !== estado.sel) mostrarFicha(id, { animar });
   }
   const abrir = id => { if (idDeRuta() === id) mostrarFicha(id); else location.hash = `obra-${id}`; };
   const volver = () => {
@@ -488,11 +498,15 @@
   cargar().then(() => {
     render();
     const pts = estado.obras.filter(o => o.latlng).map(o => o.latlng);
-    if (pts.length) {
-      mapa.invalidateSize({ pan: false });
-      mapa.fitBounds(L.latLngBounds(pts), { ...opcionesEncuadre(15), animate: false });
-    }
-    aplicarRuta();
+    const encuadreInicial = () => {
+      if (pts.length) mapa.fitBounds(L.latLngBounds(pts), { ...opcionesEncuadre(15), animate: false });
+      aplicarRuta({ animar: false });
+    };
+    mapa.invalidateSize({ pan: false });
+    // Si la página se abrió sin que el mapa tuviera tamaño (pestaña oculta, panel embebido),
+    // esperar a que lo tenga: si no, Leaflet calcula el zoom máximo.
+    if (mapaConTamano()) encuadreInicial();
+    else encuadreInicialPendiente = encuadreInicial;
   }).catch(err => {
     console.error(err);
     $('#stats').textContent = 'No pudimos cargar las obras';
